@@ -69,7 +69,7 @@ export const connect = () => {
 
     const provider = await web3Modal.connect();
 
-    const abiResponse = await fetch("/  /abi.json", {
+    const abiResponse = await fetch("/config/abi.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",

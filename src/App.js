@@ -149,11 +149,12 @@ function App() {
       <Container>
         <Row>
           <Col md={4}>
+            <div className="hero__text">
             <h1>Presale minting will begin on January 10th.</h1>
             <p>To get presale access to ensure you are able to mint , join our discord below:</p>
             <h3>Minted Amount :&nbsp; {data.totalSupply} &nbsp;/&nbsp; {CONFIG.MAX_SUPPLY} </h3>
             <h4>{feedback}</h4>
-            <button>Discord</button>
+            <button>Discord</button></div>
             {/* <button>Mint</button> */}
             <div class="connect">{Number(data.totalSupply) == CONFIG.MAX_SUPPLY ? (
                   <h1>The sale has ended.</h1>
@@ -167,9 +168,9 @@ function App() {
                         >
                           Connect
                         </button>
-                        {blockchain.errorMsg !== "" ? (
-                          <span >{blockchain.errorMsg}</span>
-                        ) : null}
+                        {blockchain.errorMsg !== "" ? 
+                          alert(blockchain.errorMsg)
+                         : null}
                       </div>
                     ) : (
                       <div>
@@ -180,13 +181,14 @@ function App() {
                             getData();
                           }}
                         >
-                          MINT
+                          {claimingNft?"Busy..." : "Mint 1 NFT"}
                         </button>
                       </div>
                     )}
                   </div>
                 )}</div>
           </Col>
+         
           <Col md={8}>
             {/* <img src={hero} alt="" /> */}
           </Col>
