@@ -35,6 +35,13 @@ const updateAccountRequest = (payload) => {
   };
 };
 
+const Off = (payload) => {
+  return {
+    type: "Off",
+    payload: payload,
+  };
+};
+
 const providerOptions = {
   walletconnect: {
     package: WalletConnectProvider, // required
@@ -130,6 +137,13 @@ export const connect = () => {
     }
   };
 };
+
+
+export const dissconnect  =()=> {
+ web3Modal.off("Off",(e)=>{
+   console.log(e,"offfffffffffffffffffffffffff")
+ })
+}
 
 export const updateAccount = (account) => {
   return async (dispatch) => {
