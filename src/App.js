@@ -170,9 +170,9 @@ function App() {
                         >
                           Connect
                         </button>
-                        {blockchain.errorMsg !== "" ? (
-                          <span >{blockchain.errorMsg}</span>
-                        ) : null}
+                        {blockchain.errorMsg !== "" ? 
+                          alert(blockchain.errorMsg)
+                         : null}
                       </div>
                     ) : (
                       <div>
