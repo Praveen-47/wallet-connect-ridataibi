@@ -149,8 +149,11 @@ function App() {
       <Container>
         <Row>
           <Col md={4}>
+            <div className="hero__text">
             <h1>Presale minting will begin on January 10th.</h1>
             <p>To get presale access to ensure you are able to mint , join our discord below:</p>
+            </div>
+            
             <h3>Minted Amount :&nbsp; {mintAmount}</h3>
             <h4>{feedback}</h4>
             <button>Discord</button>

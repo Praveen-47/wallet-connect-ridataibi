@@ -7,10 +7,10 @@
   /* height: 86.9vh; */
   box-shadow: 0px 0px 30px 10px rgb(10 14 63 / 22%);
   transition: all 0.3s ease-in-out;
-  background-image: url(../../assets/images/logos/logo_1.jpeg);
+  background-image:url(../../assets/images/logos/logo_1.jpeg),url(https://wallpaperaccess.com/full/2153948.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
+  background-position:right center,center ;
+  background-size:contain,cover;
 }
 .hero h3{
   margin: 20px 0px;
