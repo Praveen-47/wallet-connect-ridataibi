@@ -29,7 +29,7 @@ export const Team = () => {
             <Container>
                 <Row>
                     <Col md={12}>
-                    <h2 className="uppercase h2">LAID BACK LLAMAS TEAM</h2>
+                    <h2 className="uppercase h2">OUR TEAM</h2>
                     </Col>
                     <Col md={12}>
                         <Row>
@@ -39,8 +39,8 @@ export const Team = () => {
                             <img src={member1} alt="" />
                             </div>
                             <div className="member__details">
-                                <h2>Member </h2>
-                                <p>Member Position in the Team.</p>
+                                <h2>Ridie</h2>
+                                <p>Project Lead</p>
                             </div>
                         </div>
                         </Col>
@@ -51,8 +51,8 @@ export const Team = () => {
                             <img src={member2} alt="" />
                             </div>
                             <div className="member__details">
-                                <h2>Member</h2>
-                                <p>Member Position in the Team.</p>
+                                <h2>Mobro</h2>
+                                <p>Marketing Genius</p>
                             </div>
                         </div>
                         </Col>
@@ -63,8 +63,8 @@ export const Team = () => {
                             <img src={member3} alt="" />
                             </div>
                             <div className="member__details">
-                                <h2>Member</h2>
-                                <p>Member Position in the Team.</p>
+                                <h2>Amitsa</h2>
+                                <p>Blockchain Developer</p>
                             </div>
                         </div>
                         </Col>
@@ -75,8 +75,8 @@ export const Team = () => {
                             <img src={member4} alt="" />
                             </div>
                             <div className="member__details">
-                                <h2>Member</h2>
-                                <p>Member Position in the Team.</p>
+                                <h2>Jamy</h2>
+                                <p>Social Media and Community Manager</p>
                             </div>
                         </div>
                         </Col>

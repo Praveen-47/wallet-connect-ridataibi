@@ -1,5 +1,5 @@
 .header{
-    padding:20px 0px 10px;
+    padding:20px 0px 30px;
     font-family: 'Raleway',sans-serif;
     font-size:1.3rem;
     font-weight: 600;
@@ -82,7 +82,9 @@
     /* display:block !important; */
     transform:scaleX(1) !important;
 }
-
+.website__logo,.website__logo__footer img{
+    max-width:100px;
+}
 @media screen and (max-width:1199px){
     .header__toggleNav{
         display: flex;
@@ -90,6 +92,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    }
+    .header__toggleNav img{
+        max-width: 100px;
     }
     .website__logo{
         display:none;

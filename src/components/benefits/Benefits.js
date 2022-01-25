@@ -39,8 +39,15 @@ export const Benefits = () => {
             duration: 2,
             stagger: 0.25,
             autoAlpha:0,
-            
-        })
+        });
+        gsap.from("#b_c_3",{
+            scrollTrigger:"#b_c_3",
+            x:-300,
+            opacity:0,
+            duration: 2,
+            stagger: 0.25,
+            autoAlpha:0,     
+        });
     
     },[])
 
@@ -56,14 +63,16 @@ export const Benefits = () => {
                                     <img src={BenefitsImg_1} alt="" />
                                 </Col>
                                 <Col md={8}>
-                                    <h2>Laid Back Llamas Benefits</h2>
+                                    <h2>Benefits Genesis Holders</h2>
                                     <ul>
-                                        <li>7,000 provably-rare Laid Back Llamas</li>
-                                        <li>Each holder given ownership and commercial usage rights of their NFT(s)</li>
-                                        <li>Endorsement opportunities with brands for LBL holders</li>
-                                        <li>NFT Airdrops for random LBL holders</li>
-                                        <li>Whitelist opportunities into popular projects from our partners</li>
-                                        <li>Holders will receive royalties for their Llama casted in LBL TV series</li>
+                                        <li>1,000 generation genesis Cyber hippoz</li>
+                                        <li>Ultra-rare characters and utilities</li>
+                                        <li>Yield rewards Legendary genesis – 10 CHPG tokens daily</li>
+                                        <li>Yield rewards genesis – 6 CHPG tokens daily</li>
+                                        <li>Free cyberhippoz airdropped to holders (during public mint)</li>
+                                        <li>Vip access and free membership to future events and clubhouses (physical and virtual)</li>
+                                        <li>White list guarantee for future related projects</li>
+                                        <li>Exclusive merchandise only for genesis holders</li>
                                     </ul>
                                 </Col>
                             </Row>
@@ -77,18 +86,39 @@ export const Benefits = () => {
                                     <img src={BenefitsImg_1} alt="" />
                                 </Col>
                             <Col md={8}>
-                                    <h2>Laid Back Llamas Benefits</h2>
+                                    <h2>Benefits Holders Emperors</h2>
                                     <ul>
-                                        <li>7,000 provably-rare Laid Back Llamas</li>
-                                        <li>Each holder given ownership and commercial usage rights of their NFT(s)</li>
-                                        <li>Endorsement opportunities with brands for LBL holders</li>
-                                        <li>NFT Airdrops for random LBL holders</li>
-                                        <li>Whitelist opportunities into popular projects from our partners</li>
-                                        <li>Holders will receive royalties for their Llama casted in LBL TV series</li>
+                                        <li>1,000 Generation Emperors Cyberhippoz</li>
+                                        <li>Rare characters and utilities</li>
+                                        <li>Exclusive merchandise only for emperors holders</li>
+                                        <li>Vip access and free membership to future events and clubhouses (physical and virtual)</li>
+                                        <li>NFT airdrops for Random emperor holders</li>
+                                        <li>Whitelist opportunities into projects from partners and collabs</li>
                                     </ul>
                                 </Col>
                                 <Col md={4} className="desktop-only">
                                     <img src={BenefitsImg_1} alt="" />
+                                </Col>
+                                
+                            </Row>
+                        </div>
+                    </Col>
+
+                    <Col md={12}  className="benefits__col" id='b_c_3'>
+                        <div className="col-md-12 benefits__container" ref={benefits}>
+                            <Row>
+                            <Col md={4}>
+                                    <img src={BenefitsImg_1} alt="" />
+                                </Col>
+                            <Col md={8}>
+                                    <h2>Benefits Holders Communers</h2>
+                                    <ul>
+                                        <li>7,000 generation communers cyberhippoz</li>
+                                        <li>Still really dope characters with nice gadgets</li>
+                                        <li>Free membership and access to all upcoming clubhouses and events (virtual and physical)</li>
+                                        <li>First priority for merchandise orders and</li>
+                                        <li>Whitelist opportunities into projects from partners and collabs</li>
+                                    </ul>
                                 </Col>
                                 
                             </Row>

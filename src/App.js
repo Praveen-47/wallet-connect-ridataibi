@@ -23,7 +23,7 @@ import { fetchData } from "./redux/data/dataActions";
 //hero
 import { Col, Container, Row } from "react-bootstrap";
 import "./components/hero/Hero.css";
-import hero from './assets/images/hero.png'
+import hero from './assets/images/logos/logo_1.jpeg';
 
 function App() {
 
@@ -151,6 +151,8 @@ function App() {
           <Col md={4}>
             <h1>Presale minting will begin on January 10th.</h1>
             <p>To get presale access to ensure you are able to mint , join our discord below:</p>
+            <h3>Minted Amount :&nbsp; {mintAmount}</h3>
+            <h4>{feedback}</h4>
             <button>Discord</button>
             {/* <button>Mint</button> */}
             <div class="connect">{Number(data.totalSupply) == CONFIG.MAX_SUPPLY ? (
@@ -186,7 +188,7 @@ function App() {
                 )}</div>
           </Col>
           <Col md={8}>
-            <img src={hero} alt="" />
+            {/* <img src={hero} alt="" /> */}
           </Col>
           {/* <Col md={4} className="mobile-only">
             <h1>Presale minting will begin on January 10th.</h1>

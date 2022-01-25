@@ -4,7 +4,7 @@ import { ToggleButton } from "@mui/material";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import $ from 'jquery';
-import Logo from '../../assets/images/laidbacklogo.png';
+import Logo from '../../assets/images/logos/logo_1.jpeg';
 
 import "./Header.css";
 import { Link } from "react-router-dom";

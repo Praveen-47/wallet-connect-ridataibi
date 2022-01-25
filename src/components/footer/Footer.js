@@ -3,7 +3,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Header } from '../header/Header';
 import './Footer.css';
-import Logo from '../../assets/images/laidbacklogo.png'
+import Logo from '../../assets/images/logos/logo_1.jpeg'
 
 export const Footer = () => {
     return (
