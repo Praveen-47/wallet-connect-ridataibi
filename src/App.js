@@ -154,26 +154,24 @@ function App() {
             <p>To get presale access to ensure you are able to mint , join our discord below:</p>
             <h3>Minted Amount :&nbsp; {data.totalSupply} &nbsp;/&nbsp; {CONFIG.MAX_SUPPLY} </h3>
             <h4>{feedback}</h4>
-            <button>Discord</button></div>
-            {/* <button>Mint</button> */}
+            <button>Discord</button>
             <div class="connect">{Number(data.totalSupply) == CONFIG.MAX_SUPPLY ? (
                   <h1>The sale has ended.</h1>
                 ) : (
                   <div>
                     {blockchain.account === "" ||
                       blockchain.smartContract === null ? (
-                      <div>
+                      
                         <button class="connect-b"
                           onClick={connectHandler}
                         >
                           Connect
-                        </button>
-                        {blockchain.errorMsg !== "" ? 
+                          {blockchain.errorMsg !== "" ? 
                           alert(blockchain.errorMsg)
                          : null}
-                      </div>
+                        </button>
+                      
                     ) : (
-                      <div>
                         <button class="connect-b"
                           onClick={(e) => {
                             e.preventDefault();
@@ -183,10 +181,13 @@ function App() {
                         >
                           {claimingNft?"Busy..." : "Mint 1 NFT"}
                         </button>
-                      </div>
                     )}
                   </div>
                 )}</div>
+            
+            </div>
+            {/* <button>Mint</button> */}
+            
           </Col>
          
           <Col md={8}>

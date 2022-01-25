@@ -21,7 +21,7 @@
     color: rgb(223 223 223);
     font-family: "Raleway",sans-serif;  
     align-items:center;
-    margin-bottom:30px;
+    /* margin-bottom:30px; */
 }
 .faq__question h4{
     font-weight: 400;

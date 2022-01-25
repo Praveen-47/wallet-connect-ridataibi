@@ -1,0 +1,94 @@
+[debug] [2022-01-25T06:21:22.462Z] ----------------------------------------------------------------------
+[debug] [2022-01-25T06:21:22.464Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-25T06:21:22.464Z] CLI Version:   10.1.0
+[debug] [2022-01-25T06:21:22.464Z] Platform:      win32
+[debug] [2022-01-25T06:21:22.464Z] Node Version:  v16.6.1
+[debug] [2022-01-25T06:21:22.465Z] Time:          Tue Jan 25 2022 11:51:22 GMT+0530 (India Standard Time)
+[debug] [2022-01-25T06:21:22.465Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-25T06:21:22.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-25T06:21:22.509Z] > authorizing via signed-in user (madusankah897@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\react-error\nft-v3\wallet-connect-ridataibi
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-25T06:21:28.533Z] Using project from CLI flag: nft-minting-website
+[debug] [2022-01-25T06:21:28.535Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nft-minting-website [none]
+[debug] [2022-01-25T06:21:29.441Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nft-minting-website 403
+[debug] [2022-01-25T06:21:29.442Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nft-minting-website {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-01-25T06:21:29.442Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-01-25T06:21:30.004Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async getFirebaseProject (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project nft-minting-website. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-01-25T06:22:20.778Z] ----------------------------------------------------------------------
+[debug] [2022-01-25T06:22:20.780Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-25T06:22:20.780Z] CLI Version:   10.1.0
+[debug] [2022-01-25T06:22:20.780Z] Platform:      win32
+[debug] [2022-01-25T06:22:20.780Z] Node Version:  v16.6.1
+[debug] [2022-01-25T06:22:20.781Z] Time:          Tue Jan 25 2022 11:52:20 GMT+0530 (India Standard Time)
+[debug] [2022-01-25T06:22:20.781Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-25T06:22:20.827Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-25T06:22:20.827Z] > authorizing via signed-in user (madusankah897@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\react-error\nft-v3\wallet-connect-ridataibi
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-25T06:22:27.292Z] Using project from CLI flag: nft-minting-website
+[debug] [2022-01-25T06:22:27.295Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nft-minting-website [none]
+[debug] [2022-01-25T06:22:28.242Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nft-minting-website 403
+[debug] [2022-01-25T06:22:28.242Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nft-minting-website {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-01-25T06:22:28.242Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-01-25T06:22:28.806Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async getFirebaseProject (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\CHAMA COMPUTERS\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project nft-minting-website. Please make sure the project exists and your account has permission to access it.
