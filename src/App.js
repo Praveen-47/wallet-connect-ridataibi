@@ -151,7 +151,7 @@ function App() {
           <Col md={4}>
             <h1>Presale minting will begin on January 10th.</h1>
             <p>To get presale access to ensure you are able to mint , join our discord below:</p>
-            <h3>Minted Amount :&nbsp; {mintAmount}</h3>
+            <h3>Minted Amount :&nbsp; {data.totalSupply} &nbsp;/&nbsp; {CONFIG.MAX_SUPPLY} </h3>
             <h4>{feedback}</h4>
             <button>Discord</button>
             {/* <button>Mint</button> */}
